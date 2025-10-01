@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Điều Khiển Công Việc</title>
+    <!-- Tích hợp Tailwind CSS để làm đẹp giao diện -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tích hợp Font Inter từ Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Sử dụng font Inter làm font chữ mặc định */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Hiệu ứng mượt mà khi di chuột qua các box */
+        .link-card {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-white">
+
+    <div class="flex flex-col lg:flex-row min-h-screen">
+        <!-- Cột bên trái chứa các link công việc -->
+        <div class="w-full p-8 lg:p-12">
+            <header class="mb-12">
+                <h1 class="text-4xl font-bold text-cyan-400">Bảng Điều Khiển Công Việc</h1>
+                <p class="text-slate-400 mt-2">Trung tâm truy cập nhanh các công cụ và tài nguyên của bạn.</p>
+            </header>
+
+            <main class="space-y-10">
+                
+                <!-- Mục 1: Đào tạo -->
+                <section>
+                    <div class="flex items-center gap-4 mb-6">
+                        <h2 class="text-2xl font-semibold text-white">AI Xây Dựng CTĐT</h2>
+                        <span class="bg-cyan-500/20 text-cyan-300 text-xs font-semibold px-2.5 py-1 rounded-full">Dành cho: đào tạo</span>
+                    </div>
+                    
+                    <!-- === THAY ĐỔI Ở ĐÂY === -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        <!-- Link 1.1 -->
+                        <a href="file:///C:/Users/HUY/Desktop/11111.html" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-cyan-500">
+                            <h3 class="font-semibold text-lg text-white">Soạn thảo văn bản theo Form</h3>
+                            <p class="text-slate-400 text-sm mt-1">Soạn thảo văn bản theo form (không gọi API).</p>
+                        </a>
+                        <!-- Link 1.2 -->
+                        <a href="#" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-cyan-500">
+                            <h3 class="font-semibold text-lg text-white">Kiểm tra trình bày văn bản</h3>
+                            <p class="text-slate-400 text-sm mt-1">Kiểm tra trình bày văn bản.</p>
+                        </a>
+                        <!-- Link 1.3 -->
+                        <a href="#" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-cyan-500">
+                            <h3 class="font-semibold text-lg text-white">VAECO Excel Chatbot</h3>
+                            <p class="text-slate-400 text-sm mt-1">Excel Chatbot.</p>
+                        </a>
+                        <!-- Link 1.4 -->
+                        <a href="#" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-cyan-500">
+                            <h3 class="font-semibold text-lg text-white">Soạn slide</h3>
+                            <p class="text-slate-400 text-sm mt-1">Sinh slide outline & nội dung + notes.</p>
+                        </a>
+			            <!-- Link 1.5 -->
+                        <a href="#" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-cyan-500">
+                            <h3 class="font-semibold text-lg text-white">Soạn slide</h3>
+                            <p class="text-slate-400 text-sm mt-1">Sinh slide outline & nội dung + notes.</p>
+                        </a>
+                        <!-- Link 1.6 -->
+                        <a href="#" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-cyan-500">
+                            <h3 class="font-semibold text-lg text-white">Soạn slide</h3>
+                            <p class="text-slate-400 text-sm mt-1">Sinh slide outline & nội dung + notes.</p>
+                        </a>
+                        <!-- Link 1.7 -->
+                        <a href="#" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-cyan-500">
+                            <h3 class="font-semibold text-lg text-white">Soạn slide</h3>
+                            <p class="text-slate-400 text-sm mt-1">Sinh slide outline & nội dung + notes.</p>
+                        </a>
+                    </div>
+                </section>
+                
+                <!-- Mục 2: Test -->
+                <section>
+                    <div class="flex items-center gap-4 mb-6">
+                        <h2 class="text-2xl font-semibold text-white">AI Xây Dựng TEST </h2>
+                        <span class="bg-cyan-500/20 text-cyan-300 text-xs font-semibold px-2.5 py-1 rounded-full">Dành cho: đào tạo</span>
+                    </div>
+
+                    <!-- === THAY ĐỔI Ở ĐÂY === -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        <!-- Link 2.1 -->
+                        <a href="#" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-cyan-500">
+                            <h3 class="font-semibold text-lg text-white">Soạn thảo văn bản theo Form</h3>
+                            <p class="text-slate-400 text-sm mt-1">Soạn thảo văn bản theo form (không gọi API).</p>
+                        </a>
+                        <!-- Link 2.2 -->
+                        <a href="#" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-cyan-500">
+                            <h3 class="font-semibold text-lg text-white">Kiểm tra trình bày văn bản</h3>
+                            <p class="text-slate-400 text-sm mt-1">Kiểm tra trình bày văn bản.</p>
+                        </a>
+                        <!-- Link 2.3 -->
+                        <a href="#" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-cyan-500">
+                            <h3 class="font-semibold text-lg text-white">VAECO Excel Chatbot</h3>
+                            <p class="text-slate-400 text-sm mt-1">Excel Chatbot.</p>
+                        </a>
+                        <!-- Link 2.4 -->
+                        <a href="#" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-cyan-500">
+                            <h3 class="font-semibold text-lg text-white">Soạn slide</h3>
+                            <p class="text-slate-400 text-sm mt-1">Sinh slide outline & nội dung + notes.</p>
+                        </a>
+                    </div>
+                </section>
+                
+                <!-- Mục 3: Hành chính -->
+                <section>
+                    <div class="flex items-center gap-4 mb-6">
+                        <h2 class="text-2xl font-semibold text-white">AI Hành chính</h2>
+                        <span class="bg-amber-500/20 text-amber-300 text-xs font-semibold px-2.5 py-1 rounded-full">Dành cho: hành chính</span>
+                    </div>
+                     <!-- === THAY ĐỔI Ở ĐÂY === -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        <!-- Link 3.1 -->
+                        <a href="#" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-amber-500">
+                            <h3 class="font-semibold text-lg text-white">Chuyên gia Code</h3>
+                            <p class="text-slate-400 text-sm mt-1">Chuyên lập trình code.</p>
+                        </a>
+                        <!-- Link 3.2 -->
+                        <a href="#" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-amber-500">
+                            <h3 class="font-semibold text-lg text-white">Chuyên gia Luật Việt Nam</h3>
+                            <p class="text-slate-400 text-sm mt-1">Chuyên hỏi đáp về quy định.</p>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Mục 4: Học viên -->
+                <section>
+                    <div class="flex items-center gap-4 mb-6">
+                        <h2 class="text-2xl font-semibold text-white">AI Học viên</h2>
+                        <span class="bg-violet-500/20 text-violet-300 text-xs font-semibold px-2.5 py-1 rounded-full">Dành cho: học viên</span>
+                    </div>
+                     <!-- === THAY ĐỔI Ở ĐÂY === -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        <!-- Link 4.1 -->
+                        <a href="#" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-violet-500">
+                            <h3 class="font-semibold text-lg text-white">Trợ lý sắp xếp công việc</h3>
+                            <p class="text-slate-400 text-sm mt-1">Sắp xếp các công việc hiện có.</p>
+                        </a>
+                        <!-- Link 4.2 -->
+                        <a href="#" class="link-card block bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-violet-500">
+                            <h3 class="font-semibold text-lg text-white">TBD</h3>
+                            <p class="text-slate-400 text-sm mt-1">TBD.</p>
+                        </a>
+                    </div>
+                </section>
+                 
+            </main>
+        </div>
+        
+    </div>
+
+</body>
+</html>
